@@ -1,0 +1,57 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "desk-routine",
+  "title": "Desk Routine",
+  "description": "Start a desk routine",
+  "icon": "command-icon.png",
+  "author": "pawel_miklas",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "start_40_20",
+      "title": "Start routine 40:20",
+      "description": "40 minutes of sitting, 20 minutes of standing",
+      "mode": "no-view",
+      "interval": "1m"
+    },
+    {
+      "name": "start_30_30",
+      "title": "Start routine 30:30",
+      "description": "30 minutes of sitting, 30 minutes of standing",
+      "mode": "no-view",
+      "interval": "1m"
+    },
+    {
+      "name": "stop",
+      "title": "Stop routine",
+      "description": "Abort the current routine",
+      "mode": "no-view"
+    },
+    {
+      "name": "show",
+      "title": "Current routine",
+      "description": "Show the current routine",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.56.0",
+    "sound-play": "^1.1.0"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "1.0.5",
+    "@types/node": "18.8.3",
+    "@types/react": "18.0.9",
+    "@types/sound-play": "^1.1.0",
+    "eslint": "^7.32.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
