@@ -8,7 +8,8 @@
 # Optional parameters:
 # @raycast.icon 🤖
 pkill Slack
-killall 'Google Chrome'
+kill -9 $(pgrep firefox)
 kill -9 $(pgrep Electron)
-pkill 'Microsoft Teams'
+pkill -f 'Microsoft Teams'
+echo 'Workspace closed successfully!'
 exit 0
