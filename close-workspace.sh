@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon 🤖
+# @raycast.icon 🏖️
 pkill Slack
 kill -9 $(pgrep firefox)
 kill -9 $(pgrep Electron)

@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon 🤖
+# @raycast.icon 👨‍💻
 
 open -a Slack
 open -a 'firefox developer edition'

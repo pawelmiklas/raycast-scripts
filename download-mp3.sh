@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon 🔈
+# @raycast.icon 🎧
 # @raycast.argument1 { "type": "text", "placeholder": "Url" }
 
 yt-dlp -f 'ba' --extract-audio --audio-format mp3 -o "/Users/$USER/Downloads/%(title)s.%(ext)s" "$1"
