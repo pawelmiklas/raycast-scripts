@@ -11,10 +11,12 @@
 CURRENT_AUDIO_SOURCE=$(SwitchAudioSource -c)
 
 if [ "$CURRENT_AUDIO_SOURCE" == "MacBook Pro Speakers" ]; then
-  SwitchAudioSource -i 95
+  SwitchAudioSource -s "USB Audio Device"
+  CHANGED_AUDIO_SOURCE="USB Audio Device"
 else
-  SwitchAudioSource -i 79
+  SwitchAudioSource -s "MacBook Pro Speakers"
+  CHANGED_AUDIO_SOURCE="MacBook Pro Speakers"
 fi
 
-echo "Sound source toggled"
+echo "Sound source changed to $CHANGED_AUDIO_SOURCE $ICON"
 exit 0
