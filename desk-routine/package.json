@@ -8,6 +8,13 @@
   "license": "MIT",
   "commands": [
     {
+      "name": "start_50_10",
+      "title": "Start routine 50:10",
+      "description": "50 minutes of sitting, 10 minutes of standing",
+      "mode": "no-view",
+      "interval": "1m"
+    },
+    {
       "name": "start_40_20",
       "title": "Start routine 40:20",
       "description": "40 minutes of sitting, 20 minutes of standing",
