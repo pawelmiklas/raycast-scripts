@@ -9,6 +9,7 @@
 # @raycast.icon 🏖️
 pkill Slack
 pkill TablePlus
+pkill Insomnium
 kill -9 $(pgrep firefox)
 kill -9 $(pgrep Electron)
 pkill -f 'Microsoft Teams'
