@@ -7,11 +7,14 @@
 
 # Optional parameters:
 # @raycast.icon 🏖️
+
 pkill Slack
 pkill TablePlus
 pkill Insomnium
+pkill Docker
 kill -9 $(pgrep firefox)
 kill -9 $(pgrep Electron)
+kill -9 $(pgrep Cursor)
 pkill -f 'Microsoft Teams'
 echo 'Workspace closed successfully!'
 exit 0

@@ -8,9 +8,13 @@
 # Optional parameters:
 # @raycast.icon 👨‍💻
 
+# Reopen stando to reset timer
+pkill Stando
+open -a Stando
+
 open -a Slack
 open -a 'firefox developer edition'
-code-insiders
+open -a 'Cursor'
 open -a 'Microsoft Teams'
 echo 'Workspace opened successfully!'
 exit 0
