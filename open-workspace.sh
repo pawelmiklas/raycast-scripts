@@ -11,10 +11,10 @@
 # Reopen stando to reset timer
 pkill Stando
 open -a Stando
-
 open -a Slack
 open -a 'firefox developer edition'
 open -a 'Cursor'
 open -a 'Microsoft Teams'
+open -a 'Docker Desktop'
 echo 'Workspace opened successfully!'
 exit 0

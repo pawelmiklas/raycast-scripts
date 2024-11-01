@@ -8,6 +8,7 @@
 # Optional parameters:
 # @raycast.icon 🏖️
 
+pkill Stando
 pkill Slack
 pkill TablePlus
 pkill Insomnium
